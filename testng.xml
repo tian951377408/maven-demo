@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite" >
-    <test name="Test">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="恰柠檬项目">
+    <test name="注册接口">
         <classes>
-            <class name="testcase.LoginTest" />
-            <class name="testcase.RegisterTest" />
+            <class name="com.lemon.LoginTest"></class>
+            <class name="com.lemon.RegisterTest"></class>
         </classes>
     </test>
-    <parameter name="mobilephone" value="1333333"/>
-    <parameter name="password" value="1222222"/>
 </suite>
