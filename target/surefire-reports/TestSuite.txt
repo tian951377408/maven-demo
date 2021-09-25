@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 3.184 s <<< FAILURE! - in TestSuite
+loginFailed(com.lemon.LoginTest)  Time elapsed: 0.171 s  <<< FAILURE!
+java.lang.AssertionError: 登录失败1
+	at com.lemon.LoginTest.loginFailed(LoginTest.java:42)
+
+loginFailed2(com.lemon.LoginTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 登录失败2
+	at com.lemon.LoginTest.loginFailed2(LoginTest.java:47)
+
+loginFailed3(com.lemon.LoginTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 登录失败3
+	at com.lemon.LoginTest.loginFailed3(LoginTest.java:52)
+
+test(com.lemon.LoginTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.lemon.LoginTest.test(LoginTest.java:30)
+
+registerFailed(com.lemon.RegisterTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 注册失败1
+	at com.lemon.RegisterTest.registerFailed(RegisterTest.java:28)
+
+registerFailed2(com.lemon.RegisterTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 注册失败2
+	at com.lemon.RegisterTest.registerFailed2(RegisterTest.java:33)
+
+registerFailed3(com.lemon.RegisterTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 注册失败3
+	at com.lemon.RegisterTest.registerFailed3(RegisterTest.java:38)
+

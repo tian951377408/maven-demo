@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [恰柠檬项目]">
+  <test thread-count="5" verbose="0" name="注册接口(failed)">
+    <classes>
+      <class name="com.lemon.RegisterTest">
+        <methods>
+          <include name="registerFailed3"/>
+          <include name="registerFailed"/>
+          <include name="registerFailed2"/>
+        </methods>
+      </class> <!-- com.lemon.RegisterTest -->
+      <class name="com.lemon.LoginTest">
+        <methods>
+          <include name="loginFailed2"/>
+          <include name="loginFailed"/>
+          <include name="test"/>
+          <include name="loginFailed3"/>
+        </methods>
+      </class> <!-- com.lemon.LoginTest -->
+    </classes>
+  </test> <!-- 注册接口(failed) -->
+</suite> <!-- Failed suite [恰柠檬项目] -->
