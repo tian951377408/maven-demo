@@ -3,8 +3,8 @@
 <suite name="恰柠檬项目">
     <test name="注册接口">
         <classes>
-            <class name="com.lemon.LoginTest"></class>
-            <class name="com.lemon.RegisterTest"></class>
+            <class name="com.lemon.LoginTest"/>
+            <class name="com.lemon.RegisterTest"/>
         </classes>
     </test>
 </suite>
